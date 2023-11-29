@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: rgb(57, 59, 59);
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+
+  .box1{
+    background: rgb(57, 59, 59);
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .col-3{
+    padding: 16px;
+  }
+
+
+  @media (min-width: 576px) {
+    body::before {
+      content: 'sm';
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: 'md';
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: 'lg';
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: 'xl';
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: 'xxl';
+    }
+  }
+  
