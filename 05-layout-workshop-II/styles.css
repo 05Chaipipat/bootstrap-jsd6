@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: rgb(57, 59, 59);
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .box-purple{
+    background: rgb(149, 83, 149);
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .box-black{
+    background: rgb(94, 90, 94);
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+  }
